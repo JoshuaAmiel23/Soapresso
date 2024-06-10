@@ -5,7 +5,12 @@ body{
 }
 
 /* Fonts */
-.poetsen-one-regular ,footer, h1, h2, li, p{
+.poetsen-one-regular,
+footer, 
+h1, 
+h2, 
+li, 
+p {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -22,7 +27,7 @@ body{
     display: flex;
     justify-content: center;
 }
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 430px) {
     .nav-bar {
         display: none;
     }
@@ -55,7 +60,7 @@ a:hover {
     display: flex;
 }
     
-@media (min-width: 320px) and (max-width: 375px) { 
+@media (min-width: 320px) and (max-width: 430px) { 
     .image-container{
         justify-content: center;
     }
@@ -65,13 +70,13 @@ a:hover {
     width: 10rem;
     transform: translateY(-2.5rem);
 }
-@media (min-width: 320px)  {
+@media (min-width: 320px) and (max-width: 430px) {
     .cafe-exfolia-Size {
         width: 8rem;
         transform: translateY(1rem);
     }
   }
-  @media (min-width: 425px) and (max-width: 768px) {
+  @media (min-width: 431px) and (max-width: 768px) {
     .cafe-exfolia-Size {
         width: 12rem;
         transform: translateY(1rem);
@@ -82,7 +87,7 @@ a:hover {
 
   }
 
-  @media (min-width: 320px) and (max-width: 420px) {
+  @media (min-width: 320px) and (max-width: 430px) {
     .branding-size{
         width: 10rem;
         transform: translateY(9.5rem);
@@ -93,7 +98,7 @@ a:hover {
 /*Product Info*/
 
 
-@media (min-width: 320px) and (max-width: 420px){
+@media (min-width: 320px) and (max-width: 430px){
     .wwlcessContainer{
         margin-top: 17.5rem;
     }
@@ -109,7 +114,7 @@ a:hover {
   
     
 }
-@media (min-width: 320px) and (max-width: 420px) {
+@media (min-width: 320px) and (max-width: 430px) {
     .product-info{
         margin-right: 2.5rem;
         font-size: 80%;
@@ -136,22 +141,34 @@ a:hover {
 }
 
 /*Soapresso*/
+
 /*About Us*/
-.Container1, .Container2{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 1.5rem;
-}
-.aboutUS, .soapresso{
-    text-align: center;
+@media (min-width: 320px) and (max-width: 430px) {
+    .Container1, 
+    .Container2{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+    }
 }
 
 
-.aboutUsParagraph, .soapressoparagraph{
-    text-align: center;
-    line-height: 1.6rem;
-    width: 105%;
+@media (min-width: 320px) and (max-width: 430px) {
+    .aboutUS, 
+    .soapresso{
+        text-align: center;
+    }
+    .aboutUsParagraph, 
+    .soapressoparagraph{
+        text-align: center;
+        line-height: 1.6rem;
+        width: 105%;
+    }
 }
+
+
+
+
  /*Footer*/
  footer{
  
