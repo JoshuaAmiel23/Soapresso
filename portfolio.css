@@ -58,11 +58,15 @@ a:hover {
 /*Images*/
 .image-container{
     display: flex;
+    
 }
     
-@media (min-width: 320px) and (max-width: 430px) { 
+@media (min-width: 300px) and (max-width: 430px) { 
     .image-container{
         justify-content: center;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
 }
 
@@ -70,6 +74,7 @@ a:hover {
     width: 10rem;
     transform: translateY(-2.5rem);
 }
+
 @media (min-width: 320px) and (max-width: 430px) {
     .cafe-exfolia-Size {
         width: 8rem;
