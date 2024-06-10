@@ -2,6 +2,9 @@
 body{
     margin: 0;
     background-color: #FFE0B5;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
 }
 
 /* Fonts */
@@ -64,9 +67,6 @@ a:hover {
 @media (min-width: 300px) and (max-width: 430px) { 
     .image-container{
         justify-content: center;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
     }
 }
 
