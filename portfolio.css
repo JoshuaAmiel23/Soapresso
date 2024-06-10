@@ -56,17 +56,13 @@ a:hover {
  }
 
 /*Images*/
-.image-container{
+.image-container1, .image-container2{
     display: flex;
-    
 }
     
-@media (min-width: 300px) and (max-width: 430px) { 
-    .image-container{
+@media (min-width: 320px) and (max-width: 430px) { 
+    .image-container1, .image-container2{
         justify-content: center;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
     }
 }
 
@@ -77,8 +73,8 @@ a:hover {
 
 @media (min-width: 320px) and (max-width: 430px) {
     .cafe-exfolia-Size {
-        width: 8rem;
-        transform: translateY(1rem);
+        width: 10rem;
+        transform: translateY(1.5rem);
     }
   }
   @media (min-width: 431px) and (max-width: 768px) {
@@ -89,28 +85,24 @@ a:hover {
   }
 
   .branding-size{
-
+    
   }
 
   @media (min-width: 320px) and (max-width: 430px) {
     .branding-size{
-        width: 10rem;
-        transform: translateY(9.5rem);
-
+        width: 15rem;
+        transform: translateY(3rem);
     }
   }
 
 /*Product Info*/
 
-
 @media (min-width: 320px) and (max-width: 430px){
     .wwlcessContainer{
-        margin-top: 17.5rem;
+        margin-top: 5.5rem;
     }
 }
     
-
-
 .WWLCESS2{
     text-align: center;
 }
@@ -132,17 +124,20 @@ a:hover {
 }
 
 /*Product Image*/
+
+@media (min-width: 320px) and (max-width: 430px){
 .soapbarContainer{
     display: flex;
     justify-content: center;
 }
 .soapbar{
     position: relative;
-    text-align: center;
     width: 15rem;
     border-radius: 0.45rem;
     margin-bottom: 1.25rem;
     
+}
+
 }
 
 /*Soapresso*/
